@@ -2,6 +2,10 @@
   "version": 1,
   "author": "ESP32 Projeto Base",
   "editor": "wokwi",
+  "serialMonitor": {
+    "display": "terminal",
+    "collapse": false
+  },
   "parts": [
     {
       "type": "board-esp32-devkit-c-v4",
@@ -52,6 +56,9 @@
     }
   ],
   "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
     [ "esp:2", "led1:A", "green", [] ],
     [ "led1:C", "esp:GND.1", "black", [] ],
 

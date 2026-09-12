@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "ESP32 Wokwi Teste",
+      "path": "projetos/esp32-wokwi-teste"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.pio": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "platformio.platformio-ide",
+      "wokwi.wokwi-vscode"
+    ]
+  }
+}
