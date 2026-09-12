@@ -6,8 +6,8 @@
 // CONFIGURAÇÕES DO WI-FI
 // ========================================
 
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
+const char* ssid = "Gomes";
+const char* password = "r12n15a16p01";
 
 
 // ========================================
