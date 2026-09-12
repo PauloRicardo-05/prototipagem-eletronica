@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "author": "ESP32 Projeto Base",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -20,
+      "left": 180,
+      "attrs": {
+        "color": "red",
+        "label": "LED 1"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 60,
+      "left": 180,
+      "attrs": {
+        "color": "blue",
+        "label": "LED 2"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "button1",
+      "top": 150,
+      "left": 180,
+      "attrs": {
+        "color": "green",
+        "label": "BOTÃO 1"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "button2",
+      "top": 220,
+      "left": 180,
+      "attrs": {
+        "color": "yellow",
+        "label": "BOTÃO 2"
+      }
+    }
+  ],
+  "connections": [
+    [ "esp:2", "led1:A", "green", [] ],
+    [ "led1:C", "esp:GND.1", "black", [] ],
+
+    [ "esp:5", "led2:A", "blue", [] ],
+    [ "led2:C", "esp:GND.1", "black", [] ],
+
+    [ "esp:4", "button1:1.l", "green", [] ],
+    [ "button1:2.l", "esp:GND.1", "black", [] ],
+
+    [ "esp:18", "button2:1.l", "yellow", [] ],
+    [ "button2:2.l", "esp:GND.1", "black", [] ]
+  ]
+}

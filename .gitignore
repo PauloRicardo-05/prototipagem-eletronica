@@ -1,0 +1,10 @@
+# Arquivos temporários e dados do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais de editores
+.vscode/
+.idea/
+
+# Artefatos gerados pelo PlatformIO
+**/.pio/
