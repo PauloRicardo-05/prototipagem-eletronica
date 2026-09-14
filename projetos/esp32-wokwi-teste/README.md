@@ -53,6 +53,13 @@ IP: ...
 Servidor HTTP iniciado!
 ```
 
+## Tutorial em vídeo
+
+<video controls width="720">
+	<source src="docs/Esp32-LEDs.mp4" type="video/mp4">
+	Seu navegador não oferece suporte à reprodução de vídeos MP4.
+</video>
+
 ## Gravar em um ESP32 físico
 
 Não copie somente o `main.cpp` para a placa: ele precisa ser **compilado** e enviado como firmware. Conecte o ESP32 por USB e execute:
