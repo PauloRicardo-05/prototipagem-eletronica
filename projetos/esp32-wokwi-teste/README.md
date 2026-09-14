@@ -55,10 +55,7 @@ Servidor HTTP iniciado!
 
 ## Tutorial em vídeo
 
-<video controls width="720">
-	<source src="docs/Esp32-LEDs.mp4" type="video/mp4">
-	Seu navegador não oferece suporte à reprodução de vídeos MP4.
-</video>
+[Assistir ao tutorial em vídeo (MP4)](docs/Esp32-LEDs.mp4)
 
 ## Gravar em um ESP32 físico
 
