@@ -33,6 +33,8 @@ No VS Code, a forma recomendada é abrir o arquivo `prototipagem-eletronica.code
 
 Pré-requisitos: extensões **PlatformIO IDE** e **Wokwi for VS Code** instaladas e licença do Wokwi ativada.
 
+> **Licença do Wokwi:** ao executar **Wokwi: Start Simulator** pela primeira vez, o Wokwi pode solicitar que você informe ou ative uma licença. A simulação pelo VS Code só será iniciada depois que uma licença válida estiver configurada. Siga as instruções exibidas pelo Wokwi para ativá-la e, em seguida, execute o comando novamente.
+
 1. Abra `prototipagem-eletronica.code-workspace` no VS Code.
 2. Execute **PlatformIO: Build** (ícone ✓ na barra inferior) e aguarde `SUCCESS`.
 3. Pare qualquer simulação anterior e pressione `F1`.
