@@ -9,12 +9,12 @@ O circuito de simulação está definido em `diagram.json` e pode ser aberto no 
 
 ## Hardware e conexões
 
-| Componente | GPIO do ESP32 |
-| ---------- | --- --------- |
-| LED 1      |       2       |
-| LED 2      |       5       |
-| Botão 1    |       4       |
-| Botão 2    |       18      |
+| Componente | GPIO do ESP32 |  
+| -------------- | ------------ |  
+| LED 1      |       2       |  
+| LED 2      |       5       |  
+| Botão 1    |       4       |  
+| Botão 2    |       18      |  
 
 Os botões usam `INPUT_PULLUP`: conecte o outro terminal de cada botão ao GND.
 
