@@ -55,7 +55,7 @@ Servidor HTTP iniciado!
 
 ## Tutorial em vídeo
 
-[Assistir ao tutorial em vídeo (MP4)](docs/Esp32-LEDs.mp4)
+[![Assistir ao tutorial em vídeo](https://img.youtube.com/vi/BpAVDEc4UAM/0.jpg)](https://www.youtube.com/watch?v=BpAVDEc4UAM)
 
 ## Gravar em um ESP32 físico
 
